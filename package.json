@@ -1,0 +1,26 @@
+{
+  "name": "namaste-react-learning-journey",
+  "version": "1.0.0",
+  "description": "Namaste React",
+  "homepage": "https://github.com/sobhanmandal2005-ctrl/namaste-react-learning-journey#readme",
+  "bugs": {
+    "url": "https://github.com/sobhanmandal2005-ctrl/namaste-react-learning-journey/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sobhanmandal2005-ctrl/namaste-react-learning-journey.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
+  }
+}
