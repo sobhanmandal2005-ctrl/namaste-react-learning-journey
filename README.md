@@ -141,3 +141,48 @@ Ready to move into JSX and deeper React concepts.
 ## 🔥 Status
 
 Completed Episode 2 with clear understanding of tooling and ecosystem.
+
+
+# 📘 Namaste React – Episode 3 & 4
+
+## 🚀 What I Learned
+
+* Writing UI using **JSX**
+* Understanding how **Babel converts JSX → React.createElement**
+* Creating and using **functional components**
+* Using **JavaScript inside JSX ({})**
+* Rendering multiple components using **.map()**
+* Passing data into components (intro to **props**)
+
+---
+
+## 🧠 Key Concepts
+
+* **JSX** makes code readable but is not HTML
+* **Components** help build reusable UI
+* **.map()** converts data into UI elements
+* **key prop** is required for list rendering
+* **Props** are used to pass data between components
+
+---
+
+## 🧪 Features Built
+
+* Header component with logo
+* Restaurant card component
+* Dynamic rendering of restaurant list
+* Basic UI layout and styling
+
+---
+
+## 📦 Outcome
+
+* Learned how to build UI using **components and JSX**
+* Understood how data is converted into UI using **mapping**
+* Built a simple **restaurant listing interface**
+
+---
+
+## 🔥 Status
+
+Completed Episode 3 & 4 with hands-on UI implementation.
