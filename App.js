@@ -95,18 +95,18 @@ const resList = [
 const RestaurantCard = ({ resData }) => {
 
 
+const {name, cuisine, rating, deliveryTime, image} = resData;
+
   return (
     <div className="res-card">
       <img className="res-logo"
-  src={resData.image} 
+  src={image} 
   alt="food"
-  style={{ width: "200px" }}
 />
-      <h3>{resData.name}</h3>
-      <h4>{resData.cuisine}🍽️</h4>
-      <h4>{resData.location}</h4>
-      <h4>Rating: {resData.rating}⭐</h4>
-      <h4>Delivery Time: {resData.deliveryTime}⏱️</h4>
+      <h3>{name}</h3>
+      <h4>{cuisine}🍽️</h4>
+      <h4>Rating: {rating}⭐</h4>
+      <h4>Delivery Time: {deliveryTime}⏱️</h4>
     </div>
   )
 }
