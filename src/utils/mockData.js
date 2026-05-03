@@ -1,24 +1,3 @@
-import React from "react";
-import ReactDOM from "react-dom/client"
-
-const Header = () => {
-  return (
-    <div  className="header">
-      <div className="logo-container">
-       <img className="logo" src="https://cdn-icons-png.flaticon.com/512/3075/3075977.png"/>
-      </div>
-      <div className="nav-items">
-        <ul>
-          <li>Home</li>
-          <li>Contact us</li>
-          <li>About us</li>
-          <li>Cart</li>
-        </ul>
-      </div>
-    </div>
-  )
-}
-
 const resList = [
   {
     name: "Burger King",
@@ -92,49 +71,4 @@ const resList = [
   }
 ];
 
-const RestaurantCard = ({ resData }) => {
-
-
-const {name, cuisine, rating, deliveryTime, image} = resData;
-
-  return (
-    <div className="res-card">
-      <img className="res-logo"
-  src={image} 
-  alt="food"
-/>
-      <h3>{name}</h3>
-      <h4>{cuisine}🍽️</h4>
-      <h4>Rating: {rating}⭐</h4>
-      <h4>Delivery Time: {deliveryTime}⏱️</h4>
-    </div>
-  )
-}
-
-const Body = () => {
-  return (
-    <div className="body">
-      <div className="search" input="search" >search</div>
-        <div className="res-container">
-          {resList.map((restaurant) => (
-            <RestaurantCard key={restaurant.name} resData={restaurant} />
-          ))}
-        </div>
-    </div>
-  );
-}
-
-
-
-const AppLayout = () => {
-  return (
-    <div className="app">
-     <Header/>
-     <Body/>
-    </div>
-  )
-}
-
-const root = ReactDOM.createRoot(document.getElementById("root"));
-
-root.render(<AppLayout/>);
+export default resList;
