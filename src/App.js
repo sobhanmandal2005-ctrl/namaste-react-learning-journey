@@ -7,9 +7,6 @@ import RestaurantCard from "./components/RestaurantCard";
 
 
 
-
-
-
 const AppLayout = () => {
   return (
     <div className="app">

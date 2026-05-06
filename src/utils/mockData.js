@@ -69,6 +69,5 @@ const resList = [
     deliveryTime: "25 mins",
     image: "https://images.unsplash.com/photo-1589302168068-964664d93dc0"
   }
-];
-
+];  
 export default resList;
