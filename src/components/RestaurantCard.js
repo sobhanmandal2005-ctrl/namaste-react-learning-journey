@@ -1,7 +1,7 @@
 const RestaurantCard = ({ resData }) => {
 
 
-const {name, cuisine, rating, deliveryTime, image} = resData;
+const {name, cuisine, rating, deliveryTime, image, costForTwo} = resData;
 
   return (
     <div className="res-card">
@@ -13,6 +13,7 @@ const {name, cuisine, rating, deliveryTime, image} = resData;
       <h4>{cuisine}🍽️</h4>
       <h4>Rating: {rating}⭐</h4>
       <h4>Delivery Time: {deliveryTime}⏱️</h4>
+      <h4>Cost for Two: {costForTwo}💰</h4>
     </div>
   )
 }

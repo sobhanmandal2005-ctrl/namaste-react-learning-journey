@@ -186,3 +186,51 @@ Completed Episode 2 with clear understanding of tooling and ecosystem.
 ## 🔥 Status
 
 Completed Episode 3 & 4 with hands-on UI implementation.
+
+
+# 📘 Namaste React – Episode 5
+
+## 🚀 Topics Covered
+
+* Project folder structure
+* Separating components and utility files
+* Creating reusable restaurant cards
+* Adding filter button functionality
+* Introduction to React Hooks
+* Using `useState`
+* Understanding Virtual DOM
+* React Fiber & Reconciliation Algorithm
+
+---
+
+## 🧠 Key Learnings
+
+* A clean folder structure improves scalability and maintainability
+* `useState` helps React update UI dynamically without reloading the page
+* React uses a **Virtual DOM** for faster UI updates
+* The **Reconciliation Algorithm** compares old and new Virtual DOM efficiently
+* React Fiber improves rendering performance and update handling
+
+---
+
+## 🧪 Features Implemented
+
+* Created `components/` and `utils/` folders
+* Moved constants and mock data into separate files
+* Built reusable restaurant card components
+* Added **Top Rated Restaurant** filter button
+* Updated restaurant list dynamically using `useState`
+
+---
+
+## 📦 Outcome
+
+* Improved understanding of React component structure
+* Learned the basics of React Hooks and state management
+* Understood how React updates UI efficiently behind the scenes
+
+---
+
+## 🔥 Status
+
+Episode 5 completed with hands-on implementation and React core concept understanding.
