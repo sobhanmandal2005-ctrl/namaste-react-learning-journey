@@ -234,3 +234,50 @@ Completed Episode 3 & 4 with hands-on UI implementation.
 ## 🔥 Status
 
 Episode 5 completed with hands-on implementation and React core concept understanding.
+
+
+# 📘 Namaste React – Episode 6
+
+## 🚀 Topics Covered
+
+* Monolith vs Microservices Architecture
+* Understanding API calls in React
+* Introduction to `useEffect`
+* Fetching data from APIs
+* Managing API data using `useState`
+* Conditional rendering
+* Building Shimmer UI for loading state
+
+---
+
+## 🧠 Key Learnings
+
+* Microservices communicate through APIs and keep applications modular
+* API calls are generally triggered after component render using `useEffect`
+* `useState` helps store and update fetched data dynamically
+* Conditional rendering improves user experience during loading
+* Shimmer UI creates a better loading experience before actual data appears
+
+---
+
+## 🧪 Features Implemented
+
+* Added API fetching logic
+* Rendered restaurant data dynamically
+* Used `useEffect` and `useState` together
+* Created loading shimmer effect
+* Improved overall app flow and UI structure
+
+---
+
+## 📦 Outcome
+
+* Learned how React handles side effects and asynchronous data
+* Understood the basic flow of fetching and rendering API data
+* Built a smoother user experience using shimmer loading UI
+
+---
+
+## 🔥 Status
+
+Episode 6 completed with API flow understanding and shimmer UI implementation.
