@@ -19,6 +19,7 @@
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
+  font-size: 18px;
   gap: 20px;
 }
 
@@ -70,4 +71,13 @@
   margin: 10px;
   border-radius: 5px;
   animation: shimmer 1.5s infinite linear;
+}
+
+.login-btn {
+  padding: 5px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }

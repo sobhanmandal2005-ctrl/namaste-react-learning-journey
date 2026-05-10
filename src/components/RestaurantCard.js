@@ -1,7 +1,7 @@
 const RestaurantCard = ({ resData }) => {
 
 
-const {name, cuisine, rating, deliveryTime, image, costForTwo} = resData;
+const {name, cuisines, avgRating, deliveryTime, image, costForTwo} = resData;
 
   return (
     <div className="res-card">
@@ -10,8 +10,8 @@ const {name, cuisine, rating, deliveryTime, image, costForTwo} = resData;
   alt="food"
 />
       <h3>{name}</h3>
-      <h4>{cuisine}🍽️</h4>
-      <h4>Rating: {rating}⭐</h4>
+      <h4>{cuisines.join(", ")}🍽️</h4>
+      <h4>Rating: {avgRating}⭐</h4>
       <h4>Delivery Time: {deliveryTime}⏱️</h4>
       <h4>Cost for Two: {costForTwo}💰</h4>
     </div>

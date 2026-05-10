@@ -1,4 +1,3 @@
-import resList from "../utils/mockData";
 import RestaurantCard from "./RestaurantCard";
 import { useState, useEffect } from "react";
 import Shimmer from "./Shimmer";
@@ -19,24 +18,26 @@ const Body = () => {
 
   const json = await data.json();
 
+  console.log(json);
+
   const formattedData = json.meals.map((meal) => ({
     id: meal.idMeal,
     name: meal.strMeal,
     cuisines: [meal.strCategory],
     image: meal.strMealThumb,
-    avgRating: "4.0",
-    costForTwo: "₹300",
-    deliveryTime: "30 mins",
+
+    avgRating: (Math.random() * 2 + 3).toFixed(1),
+
+    costForTwo: `₹${Math.floor(Math.random() * 500 + 100)} `,
+
+    deliveryTime: `${Math.floor(Math.random() * 30 + 20)} mins`,
   }));
 
   setListedRestaurants(formattedData);
 };
 
-if(listedRestaurants.length === 0) {
-  return <Shimmer />;
-}
 
-  return (
+  return listedRestaurants.length === 0 ? (<Shimmer />) : (
     <div className="body">
       <div className= "filter">
         <button className="filter-btn" onClick={() => {
