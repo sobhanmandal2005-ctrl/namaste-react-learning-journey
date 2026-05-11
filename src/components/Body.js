@@ -4,14 +4,18 @@ import Shimmer from "./Shimmer";
 
 const Body = () => {
 
-   const [listedRestaurants, setListedRestaurants] = useState([]);
+   const [listOfRestaurants, setListOfRestaurants] = useState([]);
+   const [filteredListedRestaurants, setFilteredListedRestaurants] = useState([]);
+
+   
+   const [searchText, setSearchText] = useState("");
 
 
    useEffect(() => {
      fetchData();
    }, []);
 
-   const fetchData = async () => {
+    const fetchData = async () => {
   const data = await fetch(
     "https://www.themealdb.com/api/json/v1/1/search.php?s="
   );
@@ -33,22 +37,39 @@ const Body = () => {
     deliveryTime: `${Math.floor(Math.random() * 30 + 20)} mins`,
   }));
 
-  setListedRestaurants(formattedData);
+  setListOfRestaurants(formattedData);
+  setFilteredListedRestaurants(formattedData);
 };
 
 
-  return listedRestaurants.length === 0 ? (<Shimmer />) : (
-    <div className="body">
+
+
+  return listOfRestaurants.length === 0 ? (<Shimmer />) : (
+    <div className="body"> 
       <div className= "filter">
+        <div className="search">
+          <input className="search-box" type="text" placeholder="Search for restaurants..." value={searchText} onChange={(e) => setSearchText(e.target.value)} />
+
+          <button className="search-btn" onClick={() => {
+            const filteredRestaurants = listOfRestaurants.filter((res) => res.cuisines[0].toLowerCase().includes(searchText.toLowerCase()));
+
+            
+            setFilteredListedRestaurants(filteredRestaurants);
+            
+          }}>
+            Search🔍
+          </button>
+        </div>
         <button className="filter-btn" onClick={() => {
-          const filteredRestaurants = listedRestaurants.filter((res) => res.avgRating >= 4.2);
-          setListedRestaurants(filteredRestaurants);
-        }}>
+          const filteredRestaurants = listOfRestaurants.filter((res) => res.avgRating >= 4.2);
+
+          setFilteredListedRestaurants(filteredRestaurants);
+        }}> 
           Top Rated Restaurants🚀
         </button>
       </div>
         <div className="res-container">
-          {listedRestaurants.map((restaurant) => (
+          {filteredListedRestaurants.map((restaurant) => (
             <RestaurantCard key={restaurant.id} resData={restaurant} />           
           ))}
         </div>

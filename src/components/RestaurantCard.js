@@ -15,7 +15,7 @@ const {name, cuisines, avgRating, deliveryTime, image, costForTwo} = resData;
       <h4>Delivery Time: {deliveryTime}⏱️</h4>
       <h4>Cost for Two: {costForTwo}💰</h4>
     </div>
-  )
+  );
 }
 
 export default RestaurantCard;
