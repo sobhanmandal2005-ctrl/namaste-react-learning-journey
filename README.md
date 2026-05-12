@@ -236,7 +236,7 @@ Completed Episode 3 & 4 with hands-on UI implementation.
 Episode 5 completed with hands-on implementation and React core concept understanding.
 
 
-# 📘 Namaste React – Episode 6
+# 📘 Namaste React – Episode 6 & 6.1 & 6.2 
 
 ## 🚀 Topics Covered
 
@@ -247,6 +247,7 @@ Episode 5 completed with hands-on implementation and React core concept understa
 * Managing API data using `useState`
 * Conditional rendering
 * Building Shimmer UI for loading state
+* Search and filtering functionality
 
 ---
 
@@ -256,7 +257,9 @@ Episode 5 completed with hands-on implementation and React core concept understa
 * API calls are generally triggered after component render using `useEffect`
 * `useState` helps store and update fetched data dynamically
 * Conditional rendering improves user experience during loading
-* Shimmer UI creates a better loading experience before actual data appears
+* Shimmer UI creates a smooth loading experience before actual data appears
+* Search filtering can dynamically update UI based on user input
+* React efficiently re-renders only the necessary UI changes
 
 ---
 
@@ -266,18 +269,22 @@ Episode 5 completed with hands-on implementation and React core concept understa
 * Rendered restaurant data dynamically
 * Used `useEffect` and `useState` together
 * Created loading shimmer effect
-* Improved overall app flow and UI structure
+* Added search box for restaurant filtering
+* Implemented dynamic filtering while typing
+* Improved overall app flow and component structure
+* CORS issue resolved 
 
 ---
 
 ## 📦 Outcome
 
 * Learned how React handles side effects and asynchronous data
-* Understood the basic flow of fetching and rendering API data
-* Built a smoother user experience using shimmer loading UI
+* Understood the complete flow of fetching and rendering API data
+* Built interactive UI using hooks and dynamic filtering
+* Improved understanding of React rendering and state updates
 
 ---
 
 ## 🔥 Status
 
-Episode 6 completed with API flow understanding and shimmer UI implementation.
+Episode 6 completed with hooks, API integration, shimmer UI, and dynamic search functionality.

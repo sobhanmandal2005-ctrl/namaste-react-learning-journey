@@ -17,7 +17,7 @@ const Body = () => {
 
     const fetchData = async () => {
   const data = await fetch(
-    "https://www.themealdb.com/api/json/v1/1/search.php?s="
+    "https://proxy.corsfix.com/?https://www.themealdb.com/api/json/v1/1/search.php?s="
   );
 
   const json = await data.json();
@@ -61,7 +61,7 @@ const Body = () => {
           </button>
         </div>
         <button className="filter-btn" onClick={() => {
-          const filteredRestaurants = listOfRestaurants.filter((res) => res.avgRating >= 4.2);
+          const filteredRestaurants = listOfRestaurants.filter((res) => res.avgRating >= 4.0);
 
           setFilteredListedRestaurants(filteredRestaurants);
         }}> 
