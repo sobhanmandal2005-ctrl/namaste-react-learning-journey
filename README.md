@@ -288,3 +288,42 @@ Episode 5 completed with hands-on implementation and React core concept understa
 ## 🔥 Status
 
 Episode 6 completed with hooks, API integration, shimmer UI, and dynamic search functionality.
+
+# 📘 Namaste React – Episode 7 (In Progress)
+
+## 🚀 Topics Explored
+
+* Introduction to Routing in React
+* Understanding Client Side Routing
+* Setting up React Router
+* Creating different routes/pages
+
+---
+
+## 🧠 Key Learnings
+
+* Routing helps navigate between different pages without reloading the application
+* React uses **Client Side Routing** for faster user experience
+* React Router manages navigation inside React applications
+* Different components can be rendered based on URL paths
+
+---
+
+## 🧪 Work Done
+
+* Started learning React Router
+* Explored route configuration
+* Understood the basics of navigation and page rendering
+
+---
+
+## 📦 Outcome
+
+* Built a basic understanding of routing flow in React
+* Prepared the foundation for multi-page React applications
+
+---
+
+## 🔥 Status
+
+Episode 7 – Routing concepts in progress 🚧
