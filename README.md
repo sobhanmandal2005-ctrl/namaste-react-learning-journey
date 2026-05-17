@@ -327,3 +327,50 @@ Episode 6 completed with hooks, API integration, shimmer UI, and dynamic search 
 ## 🔥 Status
 
 Episode 7 – Routing concepts in progress 🚧
+
+# 📘 Namaste React – Episode 7 (In Progress)
+
+## 🚀 Topics Explored
+
+* Introduction to React Router
+* Client Side Routing
+* Installing `react-router-dom`
+* Creating routes using `createBrowserRouter`
+* Understanding App Layout structure
+* Using `Outlet` for nested rendering
+* Navigation using `Link`
+* Creating Home, About, and Contact pages
+
+---
+
+## 🧠 Key Learnings
+
+* React Router enables navigation without full page reloads
+* Client Side Routing improves user experience
+* `Outlet` helps render child routes inside a shared layout
+* `Link` is used for navigation in React applications
+* Routes help organize applications into multiple pages
+
+---
+
+## 🧪 Work Done
+
+* Installed and configured React Router
+* Created routing structure for the application
+* Added navigation links in Header component
+* Built Home, About, and Contact pages
+* Implemented App Layout using `Outlet`
+
+---
+
+## 📦 Outcome
+
+* Built the foundation for multi-page React applications
+* Improved understanding of routing and navigation flow
+* Prepared the application for dynamic routing features
+
+---
+
+## 🔥 Status
+
+Episode 7 – Routing concepts and navigation setup in progress 🚧
