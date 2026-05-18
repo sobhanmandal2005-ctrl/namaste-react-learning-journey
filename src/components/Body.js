@@ -22,7 +22,7 @@ const Body = () => {
 
   const json = await data.json();
 
-  console.log(json);
+  
 
   const formattedData = json.meals.map((meal) => ({
     id: meal.idMeal,
