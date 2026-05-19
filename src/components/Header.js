@@ -1,4 +1,4 @@
-import HEADER_LOGO from "../utils/contants";
+import {HEADER_LOGO} from "../utils/constants";
 import {useState} from "react";
 import { Link } from "react-router-dom";
 
@@ -13,15 +13,15 @@ const [btnReactName, setBtnReactName] = useState("login");
       </div>
       <div className="nav-items">
         <ul>
-          <li>
+          <li className="home-link">
             <Link to="/">Home</Link>
           </li>
-          <li>
+          <li className="contact-link">
             <Link to="/contact">Contact us</Link>
           </li>
-          <li>
+          <li className="about-link">
             <Link to="/about">About us</Link>
-          </li>
+          </li >
           <li>Cart</li>
           <button className="login-btn" onClick={() => {
             btnReactName === "Login"? setBtnReactName("Logout") : setBtnReactName("Login");

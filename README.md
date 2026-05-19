@@ -374,3 +374,62 @@ Episode 7 – Routing concepts in progress 🚧
 ## 🔥 Status
 
 Episode 7 – Routing concepts and navigation setup in progress 🚧
+
+# 📘 Namaste React – Episode 7
+
+## 🚀 Topics Covered
+
+* Introduction to React Router
+* Client Side Routing
+* Installing and configuring `react-router-dom`
+* Creating routes using `createBrowserRouter`
+* Understanding App Layout structure
+* Using `Outlet` for nested rendering
+* Navigation using `Link`
+* Creating Home, About, and Contact pages
+* Dynamic Routing using route parameters
+* Fetching menu data for restaurant pages
+* Conditional rendering and loading states
+
+---
+
+## 🧠 Key Learnings
+
+* React Router enables smooth navigation without page reloads
+* `Outlet` helps render nested routes inside a shared layout
+* `Link` is used for navigation inside React applications
+* Dynamic routes help render pages based on unique IDs
+* `useParams` can access dynamic values from URLs
+* API data can be fetched separately for specific pages
+* Optional chaining helps avoid crashes while rendering API data
+
+---
+
+## 🧪 Features Implemented
+
+* Installed and configured React Router
+* Created routing structure for multiple pages
+* Built Home, About, and Contact pages
+* Added navigation links in Header component
+* Implemented App Layout using `Outlet`
+* Added dynamic restaurant routes
+* Created Restaurant Menu page
+* Fetched and rendered dynamic menu data
+* Added loading state using Shimmer component
+* Styled route links and improved UI behavior
+
+---
+
+## 📦 Outcome
+
+* Learned complete routing flow in React applications
+* Improved understanding of navigation and dynamic rendering
+* Built a multi-page React application structure
+* Practiced API fetching with route-based rendering
+* Gained confidence in debugging React and API-related issues
+
+---
+
+## 🔥 Status
+
+Episode 7 completed with React Router, dynamic routing, navigation, and menu rendering features.

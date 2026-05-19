@@ -93,3 +93,18 @@
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   align-items: center;
 }
+
+.res-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.res-link:hover {
+  color: #007bff;
+}
+
+.home-link a, .contact-link a, .about-link a {
+  text-decoration: none;
+  color: inherit;
+}
+

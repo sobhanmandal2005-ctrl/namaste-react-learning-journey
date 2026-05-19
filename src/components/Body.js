@@ -1,6 +1,8 @@
 import RestaurantCard from "./RestaurantCard";
+import { API_URL } from "../utils/constants";
 import { useState, useEffect } from "react";
 import Shimmer from "./Shimmer";
+import { Link } from "react-router-dom";
 
 const Body = () => {
 
@@ -16,11 +18,9 @@ const Body = () => {
    }, []);
 
     const fetchData = async () => {
-  const data = await fetch(
-    "https://proxy.corsfix.com/?https://www.themealdb.com/api/json/v1/1/search.php?s="
-  );
+        const data = await fetch(API_URL);
 
-  const json = await data.json();
+        const json = await data.json();
 
   
 
@@ -70,7 +70,9 @@ const Body = () => {
       </div>
         <div className="res-container">
           {filteredListedRestaurants.map((restaurant) => (
-            <RestaurantCard key={restaurant.id} resData={restaurant} />           
+            <Link  key={restaurant.id} className="res-link" to= { "/restaurants/" + restaurant.id}>
+              <RestaurantCard resData={restaurant} />
+            </Link>
           ))}
         </div>
     </div>
