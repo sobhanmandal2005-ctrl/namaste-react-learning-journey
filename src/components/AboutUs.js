@@ -1,10 +1,17 @@
+import User from "./User";
+import UserClass from "./UserClass";
+
 const AboutUs = () => {
   return (
     <div>
       <h1>About Us</h1>
-      <p>This is the about us page of our application.</p>
+      <User name={"Sobhan Mandal (function)"} />
+
+
+      <UserClass name={"Sobhan Mandal (Class)"} />
     </div>
   );
 }
 
 export default AboutUs;
+ 

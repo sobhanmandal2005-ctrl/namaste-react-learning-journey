@@ -108,3 +108,12 @@
   color: inherit;
 }
 
+.user-card {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.userClass-card {
+  border: 1px solid black;
+  padding: 10px;
+}
