@@ -433,3 +433,56 @@ Episode 7 – Routing concepts and navigation setup in progress 🚧
 ## 🔥 Status
 
 Episode 7 completed with React Router, dynamic routing, navigation, and menu rendering features.
+
+
+# 📘 Namaste React – Episode 8
+
+## 🚀 Topics Covered
+
+* Class Based Components
+* Functional Components
+* Props in Class Components
+* Constructor in Class Components
+* `super(props)` usage
+* Render method in Class Components
+* Component Lifecycle Basics
+* Fetching GitHub User API
+* Managing API data using state
+
+---
+
+## 🧠 Key Learnings
+
+* Class components use a different syntax compared to functional components
+* `constructor` is used to initialize state and receive props
+* `super(props)` allows access to props inside class components
+* The `render()` method is responsible for returning JSX
+* State updates trigger component re-rendering
+* APIs can also be fetched inside class components
+* Lifecycle methods help control component behavior during rendering
+
+---
+
+## 🧪 Features Implemented
+
+* Created functional and class based user components
+* Passed props to both component types
+* Rendered dynamic user information
+* Explored constructor and render flow
+* Fetched GitHub user data using API
+* Displayed fetched user information dynamically
+
+---
+
+## 📦 Outcome
+
+* Understood the difference between functional and class components
+* Learned the structure and workflow of class based components
+* Improved understanding of props, state, and lifecycle concepts
+* Practiced API fetching and dynamic rendering in React
+
+---
+
+## 🔥 Status
+
+Episode 8 completed with class components, lifecycle basics, and GitHub API integration.

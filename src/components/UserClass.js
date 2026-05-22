@@ -8,29 +8,43 @@ class UserClass extends React.Component {
 
 
       this.state = {
-        count: 0,
-        count2: 1,
+        userInfo: {
+          name: "Dummy Name",
+          location: "Dummy Location",
+          occupation: "Aspiring software dev",
+          bio: "default bio",
+          email: "sobhanmandal2005@gmail.com",
+        }
       }
+
+    console.log("Constructor");
+
  }
 
+ async componentDidMount() {
+   
+  const data = await fetch("https://api.github.com/users/sobhanmandal2005-ctrl");
+  const json = await data.json();
+  console.log(json);
+
+
+  this.setState({
+    userInfo: json,
+  });
+
+
+  console.log("Component Did Mount");
+  
+ } 
 
   render() {
     return (
       <div className="userClass-card">
-        <button onClick={() => {
-          this.setState({
-            count: this.state.count + 1,
-            count2: this.state.count2 * 2,
-          })
-        }}>CountClick
-        </button>
-        
-        <h3>Count: {this.state.count}</h3>
-        <h3>Count2: {this.state.count2}</h3>
-        <h2>Name: {this.props.name}</h2>
-        <h3>Location: Kolkata</h3>
-        <h3>Occupation: Software Engineer</h3>
-        <h4>Email: sobhanmandal2005@gmail.com</h4>
+        <h2>Name: {this.state.userInfo.name}</h2>
+        <h3>Location: {this.state.userInfo.location}</h3>
+        <h3>Occupation: {this.state.userInfo.occupation}</h3>
+        <h3>Bio: {this.state.userInfo.bio}</h3>
+        <h4>Email: {this.state.userInfo.email}</h4>
       </div>
     );
   }
