@@ -11,7 +11,7 @@ class UserClass extends React.Component {
         userInfo: {
           name: "Dummy Name",
           location: "Dummy Location",
-          occupation: "Aspiring software dev",
+          occupation: "As",
           bio: "default bio",
           email: "sobhanmandal2005@gmail.com",
         }
@@ -37,14 +37,21 @@ class UserClass extends React.Component {
   
  } 
 
+ componentWillUnmount() {
+  console.log("Component Will Unmount");
+ }
+
   render() {
+
+  const {name, location, bio} = this.state.userInfo;
+
     return (
       <div className="userClass-card">
-        <h2>Name: {this.state.userInfo.name}</h2>
-        <h3>Location: {this.state.userInfo.location}</h3>
-        <h3>Occupation: {this.state.userInfo.occupation}</h3>
-        <h3>Bio: {this.state.userInfo.bio}</h3>
-        <h4>Email: {this.state.userInfo.email}</h4>
+        <h2>Name: {name}</h2>
+        <h3>Location: {location}</h3>
+        <h3>Occupation: Student</h3>
+        <h3>Bio: {bio}</h3>
+        <h4>Email: sobhanmandal2005@gmail.com</h4>
       </div>
     );
   }

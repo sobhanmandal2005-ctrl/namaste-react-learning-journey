@@ -486,3 +486,45 @@ Episode 7 completed with React Router, dynamic routing, navigation, and menu ren
 ## 🔥 Status
 
 Episode 8 completed with class components, lifecycle basics, and GitHub API integration.
+
+# 📘 Namaste React – Episode 8 (Lifecycle Methods)
+
+## 🚀 Topics Covered
+
+* Introduction to Lifecycle Methods
+* Understanding `componentDidMount`
+* API calls inside Class Components
+* Updating state after API fetch
+* Component rendering flow
+
+---
+
+## 🧠 Key Learnings
+
+* `componentDidMount` runs after the component is rendered
+* API calls are generally performed inside `componentDidMount`
+* Updating state triggers re-rendering in React
+* Lifecycle methods control how class components behave during rendering
+
+---
+
+## 🧪 Work Done
+
+* Explored lifecycle flow in class components
+* Used `componentDidMount` for API fetching
+* Rendered GitHub API data dynamically
+* Practiced state updates after fetching data
+
+---
+
+## 📦 Outcome
+
+* Improved understanding of React lifecycle methods
+* Learned how class components handle side effects and API calls
+* Understood rendering and re-rendering flow in React
+
+---
+
+## 🔥 Status
+
+Explored lifecycle methods and `componentDidMount` in Episode 8 finally completed🚧

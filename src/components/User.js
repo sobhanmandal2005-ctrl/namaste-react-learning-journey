@@ -9,6 +9,7 @@ const User = (props) => {
   return (
     <div className="user-card">
       <h3>Count: {count}</h3>
+      <button onClick={() => setCount(count + 1)}>Increment</button>
       <h2>Name: {name}</h2>
       <h3>Location: Kolkata</h3>
       <h3>Occupation: Software Engineer</h3>
