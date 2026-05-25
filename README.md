@@ -528,3 +528,46 @@ Episode 8 completed with class components, lifecycle basics, and GitHub API inte
 ## 🔥 Status
 
 Explored lifecycle methods and `componentDidMount` in Episode 8 finally completed🚧
+
+
+# 📘 Namaste React – Episode 9 (In Progress)
+
+## 🚀 Topics Explored
+
+* Optimizing React Applications
+* Understanding Single Responsibility Principle
+* Creating custom hooks
+* Online and offline status detection
+* Using browser event listeners
+
+---
+
+## 🧠 Key Learnings
+
+* React applications can be optimized by separating logic into reusable hooks
+* Custom hooks improve code readability and reusability
+* Browser APIs can detect internet connectivity status
+* Event listeners help track online and offline changes dynamically
+
+---
+
+## 🧪 Work Done
+
+* Started exploring optimization concepts
+* Learned about custom hooks
+* Built online status checking functionality
+* Practiced handling browser events inside React
+
+---
+
+## 📦 Outcome
+
+* Improved understanding of reusable React logic
+* Learned how to create utility-based hooks
+* Explored real-time connectivity status handling
+
+---
+
+## 🔥 Status
+
+Episode 9 in progress with optimization concepts and online status checking 🚧

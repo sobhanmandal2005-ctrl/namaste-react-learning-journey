@@ -1,30 +1,14 @@
-import { useState, useEffect } from "react";
 import Shimmer from "./Shimmer";
 import { useParams } from "react-router-dom";
+import useRestaurantMenu from "../utils/useRestaurantMenu";
 
 
 const RestaurantMenu = () => {
 
   const { idMeal } = useParams();
 
-  const [menuItems, setMenuItems] = useState(null);
+  const menuItems = useRestaurantMenu(idMeal);
 
-  useEffect(() => {
-    fetchMenu();
-  }, []);
-
-  const fetchMenu = async () => {
-
-    const data = await fetch(
-      `https://proxy.corsfix.com/?https://www.themealdb.com/api/json/v1/1/lookup.php?i=${idMeal}`
-    );
-
-    const json = await data.json();
-
-    console.log(json);
-
-    setMenuItems(json);
-  };
 
   if(menuItems === null) return <Shimmer />;
 
