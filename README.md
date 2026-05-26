@@ -571,3 +571,54 @@ Explored lifecycle methods and `componentDidMount` in Episode 8 finally complete
 ## 🔥 Status
 
 Episode 9 in progress with optimization concepts and online status checking 🚧
+
+# 📘 Namaste React – Episode 9
+
+## 🚀 Topics Covered
+
+* Optimizing React Applications
+* Single Responsibility Principle
+* Creating Custom Hooks
+* Reusable Logic in React
+* Online and Offline Status Detection
+* Browser Event Listeners
+* Chunking / Code Splitting
+* Lazy Loading
+* `lazy` and `Suspense`
+
+---
+
+## 🧠 Key Learnings
+
+* React applications become cleaner by separating reusable logic into custom hooks
+* Custom hooks help avoid repeating the same code in multiple components
+* Browser APIs can detect internet connectivity changes dynamically
+* Event listeners help track online and offline status in real time
+* Code splitting improves application performance by loading components only when needed
+* `lazy` and `Suspense` help implement lazy loading in React applications
+
+---
+
+## 🧪 Features Implemented
+
+* Built custom hook for online status checking
+* Used browser event listeners for connectivity detection
+* Displayed online/offline status dynamically
+* Explored optimization concepts and reusable logic
+* Implemented lazy loading for components
+* Practiced code splitting using React lazy loading features
+
+---
+
+## 📦 Outcome
+
+* Improved understanding of React optimization techniques
+* Learned how to create reusable and scalable custom hooks
+* Explored performance optimization using lazy loading
+* Built better understanding of React application architecture
+
+---
+
+## 🔥 Status
+
+Episode 9 completed with custom hooks, online status detection, and React optimization concepts.
