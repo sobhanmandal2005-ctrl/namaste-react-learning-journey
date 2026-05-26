@@ -103,7 +103,7 @@
   color: #0893f7;
 }
 
-.home-link a, .contact-link a, .about-link a {
+.home-link a, .contact-link a, .about-link a, .grocery-link a {
   text-decoration: none;
   color: inherit;
 }

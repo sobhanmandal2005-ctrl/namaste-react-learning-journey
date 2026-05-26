@@ -26,6 +26,9 @@ const onlineStatus = useOnlineStatus();
           <li className="about-link">
             <Link to="/about">About us</Link>
           </li >
+          <li className="grocery-link">
+            <Link to="/grocery">Grocery</Link>
+          </li >
           <li>Cart</li>
           <button className="login-btn" onClick={() => {
             btnReactName === "Login"? setBtnReactName("Logout") : setBtnReactName("Login");
