@@ -666,3 +666,50 @@ Episode 9 completed with custom hooks, online status detection, and React optimi
 ## 🔥 Status
 
 Episode 10 basics completed with Tailwind CSS setup and core concepts 🚧
+
+# 📘 Namaste React – Episode 10
+
+## 🚀 Topics Covered
+
+* Introduction to Tailwind CSS
+* Utility First CSS concept
+* Tailwind CSS installation and configuration
+* Understanding Tailwind utility classes
+* Responsive Design Basics
+* Styling React components using Tailwind
+* Faster UI development workflow
+
+---
+
+## 🧠 Key Learnings
+
+* Tailwind CSS allows styling directly inside JSX using utility classes
+* Utility-first approach helps build UI faster and cleaner
+* Responsive layouts become easier using Tailwind breakpoints
+* Tailwind reduces the need for writing large custom CSS files
+* Proper configuration is important for Tailwind and Parcel compatibility
+
+---
+
+## 🧪 Features Implemented
+
+* Configured Tailwind CSS in React project
+* Explored utility classes for spacing, typography, and layout
+* Practiced responsive styling concepts
+* Applied Tailwind classes to React components
+* Improved project styling workflow
+
+---
+
+## 📦 Outcome
+
+* Improved understanding of modern frontend styling workflows
+* Learned utility-first CSS methodology
+* Built foundation for creating responsive and scalable UI designs
+* Gained hands-on experience integrating Tailwind with React
+
+---
+
+## 🔥 Status
+
+Episode 10 completed with Tailwind CSS setup, utility-first styling, and responsive design basics.

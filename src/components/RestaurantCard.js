@@ -4,7 +4,7 @@ const RestaurantCard = ({ resData }) => {
 const {name, cuisines, avgRating, deliveryTime, image, costForTwo} = resData;
 
   return (
-    <div className="res-card">
+    <div className="flex-wrap border-solid shadow-lg p-4 m-2 w-[200px]">
       <img className="res-logo"
   src={image} 
   alt="food"
