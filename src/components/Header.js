@@ -10,7 +10,7 @@ const [btnReactName, setBtnReactName] = useState("Login");
 const onlineStatus = useOnlineStatus();
 
   return (
-    <div  className="flex justify-between border-solid shadow-lg m-2 p-3 bg-red-100">
+    <div  className="flex justify-between border-solid shadow-lg m-2 p-3 bg-orange-50 rounded-md">
       <div className="logo-container">
        <img className="w-24" src={HEADER_LOGO} alt="Logo" />
       </div>
@@ -30,7 +30,7 @@ const onlineStatus = useOnlineStatus();
             <Link to="/grocery">Grocery</Link>
           </li >
           <li>Cart</li>
-          <button className="login-btn" onClick={() => {
+          <button className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-1 rounded-md" onClick={() => {
             btnReactName === "Login"? setBtnReactName("Logout") : setBtnReactName("Login");
           }} >
             {btnReactName}
