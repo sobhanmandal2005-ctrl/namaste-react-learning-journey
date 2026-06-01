@@ -713,3 +713,50 @@ Episode 10 basics completed with Tailwind CSS setup and core concepts 🚧
 ## 🔥 Status
 
 Episode 10 completed with Tailwind CSS setup, utility-first styling, and responsive design basics.
+
+# 📘 Namaste React – Episode 11
+
+## 🚀 Topics Covered
+
+* Higher Order Components (HOC)
+* Creating a Promoted Restaurant Label
+* Conditional Rendering
+* Accordion UI Concepts
+* Lifting State Up
+* Controlled Components
+* Component Reusability
+
+---
+
+## 🧠 Key Learnings
+
+* HOCs can enhance existing components with additional features
+* State can be lifted to a parent component for better control
+* Controlled components help manage UI behavior predictably
+* Conditional rendering allows dynamic UI updates
+* Component logic should adapt to available API data
+
+---
+
+## 🧪 Features Implemented
+
+* Created a Promoted Label using Higher Order Components
+* Built expandable item/card behavior
+* Practiced controlled component patterns
+* Added Add to Cart button UI
+* Adapted accordion-like functionality based on available API data
+
+---
+
+## 📦 Outcome
+
+* Improved understanding of component composition
+* Learned how to reuse and enhance components using HOCs
+* Practiced state management patterns before Redux
+* Built a stronger foundation for upcoming cart and Redux features
+
+---
+
+## 🔥 Status
+
+Episode 11 completed with HOCs, controlled components, state lifting, and menu interaction features.
