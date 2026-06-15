@@ -1,9 +1,10 @@
 import RestaurantCard, {withPromotedLabel} from "./RestaurantCard";
 import { API_URL } from "../utils/constants";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useContext } from "react";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
+import UserContext from "../utils/UserContext";
 
 
 const Body = () => {
@@ -54,6 +55,8 @@ const Body = () => {
  if(onlinestatus === false) return <h1>🔴 You are offline. Please check your internet connection. </h1>;
 
 
+ const {loggedInUser, setUserName} = useContext(UserContext);
+
   return listOfRestaurants.length === 0 ? (<Shimmer />) : (
     <div className="bg-orange-50"> 
       <div className= "flex justify-between m-4 px-4  rounded-md">
@@ -69,6 +72,8 @@ const Body = () => {
           }}>
             Search🔍
           </button>
+          <label htmlFor="username" className="font-medium m-2">Username : </label>
+          <input type="text" id="username" placeholder="Username" value={loggedInUser} onChange={(e) => setUserName(e.target.value)} />
         </div>
      <div>
         <button className="bg-orange-400 hover:bg-orange-500 p-2 rounded-md text-white shadow-lg rounded-md" onClick={() => {

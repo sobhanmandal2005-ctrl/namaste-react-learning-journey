@@ -760,3 +760,66 @@ Episode 10 completed with Tailwind CSS setup, utility-first styling, and respons
 ## 🔥 Status
 
 Episode 11 completed with HOCs, controlled components, state lifting, and menu interaction features.
+
+# 📘 Namaste React – Episode 11
+
+## 🚀 Topics Covered
+
+* Higher Order Components (HOC)
+* Creating a Promoted Restaurant Label
+* Controlled Components
+* Uncontrolled Components
+* Lifting State Up
+* Accordion UI Pattern
+* Single Source of Truth
+
+---
+
+## 🧠 Key Learnings
+
+* Higher Order Components can enhance existing components with additional functionality.
+* State should be lifted to the nearest common parent when multiple components need access to it.
+* Controlled components derive their behavior from React state.
+* Accordion UIs can be managed using state and conditional rendering.
+* Maintaining a single source of truth makes applications more predictable and easier to debug.
+
+---
+
+## 🧪 Features Implemented
+
+### 1. Promoted Restaurant Label
+
+* Built a Higher Order Component (HOC)
+* Added a custom label to selected restaurant cards
+
+### 2. Accordion-style Menu
+
+* Implemented expandable/collapsible sections
+* Managed UI state using React state
+
+### 3. Controlled Component Logic
+
+* Practiced handling component state through React
+* Improved understanding of state-driven UI updates
+
+### 4. Add to Cart UI Setup
+
+* Added Add to Cart button structure
+* Prepared foundation for future cart functionality using Redux
+
+---
+
+## 🎯 Outcome
+
+* Gained confidence with advanced React patterns
+* Learned component composition through HOCs
+* Improved state management skills
+* Built the foundation required for Context API and Redux
+
+---
+
+## 📂 Progress
+
+✅ Episode 11 Completed
+
+Next: Context API & Redux Toolkit
