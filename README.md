@@ -823,3 +823,48 @@ Episode 11 completed with HOCs, controlled components, state lifting, and menu i
 ✅ Episode 11 Completed
 
 Next: Context API & Redux Toolkit
+
+
+# 📘 Namaste React – Episode 12 (Redux Toolkit - Getting Started)
+
+## 🚀 Topics Covered
+
+* Introduction to Redux
+* Why Redux is used
+* Redux Toolkit Overview
+* Store Concept
+* Slice Concept
+* Actions & Reducers
+* Unidirectional Data Flow
+
+---
+
+## 🧠 Key Learnings
+
+* Redux helps manage shared application state.
+* Redux Toolkit simplifies Redux setup and development.
+* A Store acts as the central state container.
+* Slices organize state and related logic.
+* Actions describe what happened, while reducers update the state.
+
+---
+
+## 📦 Progress Made
+
+* Started learning Redux Toolkit
+* Understood Store and Slice architecture
+* Explored Redux data flow
+* Prepared project for global state management
+
+---
+
+## 🎯 Outcome
+
+* Built a foundational understanding of Redux Toolkit
+* Ready to implement cart state management in upcoming steps
+
+---
+
+## 📂 Status
+
+🟡 Episode 12 In Progress
